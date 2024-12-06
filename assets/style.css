@@ -1,0 +1,28 @@
+html, body {
+  height : 100%;
+}
+
+.main-stage {
+  margin-top : 15px;
+}
+
+.multi-project {
+  margin-top : 30px;
+}
+
+.multi-project .col-lg-3 {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  height : 5%;
+  color : white ;
+  padding-top : 9px;
+}
+
+@media only screen and (max-width: 700px) {
+  .multi-project .col-lg-3 {
+    margin-top: 10px;
+  }
+}
